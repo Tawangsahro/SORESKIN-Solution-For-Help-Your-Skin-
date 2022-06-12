@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Soreskin</string>
+
+    <string name="text_hint_username">Username</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_dont_have_account">Not a member?</string>
+    <string name="text_hint_name">Nama</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_password_confirm">Confirm Password</string>
+    <string name="text_hint_date">Tanggal Lahir</string>
+    <string name="text_hint_address">Alamat</string>
+    <string name="text_update">Update</string>
+    <string name="text_profile">Profil</string>
+
+    <string name="text_login">Sign In</string>
+    <string name="text_login_2">Masuk</string>
+    <string name="text_register">Sign Up</string>
+    <string name="text_register_2">Register Now</string>
+    <string name="text_logout">Logout</string>
+    <string name="content_desc_btn_back">Back to List Movie</string>
+    <string name="text_have_account">Have an account?</string>
+
+    <string name="title">%1$s %2$s</string>
+    <string name="overview">Overview</string>
+    <string name="popularity">Popularity\t\t: %1$s</string>
+    <string name="vote_count">Vote Count\t: %1$s</string>
+    <string name="casts">Casts</string>
+    <string name="similar">Similar</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="text_error">Oops!, There\'s something error</string>
+    <string name="text_greeting_login">Hello Again!</string>
+    <string name="text_subgreeting_login">Welcome back you\'ve\nbeen missed!</string>
 </resources>

@@ -15,8 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/ic_camera"
-        app:tint="@color/green_leaf" />
+        app:srcCompat="@drawable/ic_camera" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/btn_scan"

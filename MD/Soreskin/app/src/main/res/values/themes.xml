@@ -14,4 +14,88 @@
         <!-- Customize your theme here. -->
         <item name="android:windowLightStatusBar">true</item>
     </style>
+
+    <!--  Typography  -->
+    <style name="Typography">
+    </style>
+
+    <style name="Typography.White" parent="Typography">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Typography.White.10" parent="Typography.White">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Typography.White.12" parent="Typography.White">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Typography.White.14" parent="Typography.White">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Typography.White.14.Bold" parent="Typography.White.14">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typography.White.16" parent="Typography.White">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Typography.White.16.Bold" parent="Typography.White.16">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typography.Black" parent="Typography">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Typography.Black.10" parent="Typography.Black">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Typography.Black.12" parent="Typography.Black">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Typography.Black.14" parent="Typography.Black">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Typography.Black.14.Bold" parent="Typography.Black.14">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typography.Black.16" parent="Typography.Black">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Typography.Black.16.Bold" parent="Typography.Black.16">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typography.Black.20" parent="Typography.Black">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Typography.Black.20.Bold" parent="Typography.Black.20">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typography.Black.24" parent="Typography.Black">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Typography.Black.24.Bold" parent="Typography.Black.24">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typography.Black.28" parent="Typography.Black">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="Typography.Black.28.Bold" parent="Typography.Black.28">
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

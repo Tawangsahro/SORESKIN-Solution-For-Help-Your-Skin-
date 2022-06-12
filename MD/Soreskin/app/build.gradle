@@ -58,6 +58,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx:21.0.5'
     implementation 'com.google.android.gms:play-services-auth:20.2.0'
 
+    //datastore
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+
     //testing
     testImplementation "junit:junit:4.13.2"
     androidTestImplementation "androidx.test.ext:junit:1.1.3"
