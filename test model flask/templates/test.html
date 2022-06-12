@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Turtorial</title>
+    </head>
+
+    <body>
+        <h1>image cl</h1>
+
+    <form method="POST" enctype="multipart/form-data" action='/', enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" >
+        &emsp;&emsp;&emsp; <input type="submit" value="Upload" name="submit">
+    </form>
+
+
+    {% if n %}
+        <p class=" text-center">Image is a{{n}}</p>
+        <p class=" text-center">Skin yang di rekomendasikan</p>
+    {% endif %}
+
+
+    <table>
+        <h1>
+        <!--Displaying the converted table-->
+            {% for table in tables %}                         
+            {{ table|safe }}
+            {% endfor %}     
+        </h1> 
+    </table>
+
+    </body>
+
+</html>
