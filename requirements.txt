@@ -1,0 +1,10 @@
+numpy
+gunicorn
+matplotlib
+tensorflow==2.9.1
+keras==2.1.0
+h5py==2.10.0
+opencv-python
+flask
+pandas==1.4.2
+IPython[all]
